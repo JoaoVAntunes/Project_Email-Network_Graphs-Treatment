@@ -1,46 +1,47 @@
-# Análise de Rede de Emails
+# Email Network Analysis
 
-## Visão Geral
-Ferramenta para construção e análise de grafos baseados em comunicações por email, transformando dados de remetentes e destinatários em uma rede direcionada e ponderada.
+## Overview
+Tool for building and analyzing graphs based on email communications,
+transforming sender and recipient data into a directed and weighted network.
 
-## Funcionalidades
+## Features
 
-### Geração de Grafo
-- Construção de grafo direcionado e ponderado a partir de dados de emails
-- Armazenamento em formato de texto para análise posterior
+### Graph Generation
+- Builds a directed and weighted graph from email data
+- Stores the graph in text format for later analysis
 
-### Métricas e Análises
-- **Métricas Básicas**: Ordem (nº de vértices), tamanho (nº de arestas) e vértices isolados
-- **Centralidade**: Identificação dos 20 indivíduos com maior grau de entrada e saída
-- **Visualização**: Exibição organizada das métricas e resultados
+### Metrics and Analysis
+- **Basic Metrics**: Order (number of vertices), size (number of edges), and isolated vertices
+- **Centrality**: Identifies the top 20 individuals with the highest in-degree and out-degree
+- **Visualization**: Organized display of metrics and results
 
-## Estrutura do Projeto
+## Project Structure
 ```
 /
-├── controller/       # Lógica de controle da aplicação
-├── models/           # Estruturas de dados e persistência
-├── utils/            # Utilitários e ferramentas auxiliares
-├── data/             # Dados brutos e processados
-├── views/            # Interface com usuário (opcional)
-└── main.py           # Ponto de entrada da aplicação
+├── controller/       # Application control logic
+├── models/           # Data structures and persistence
+├── utils/            # Utilities and helper tools
+├── data/             # Raw and processed data
+├── views/            # User interface (optional)
+└── main.py           # Application entry point
 ```
 
-## Tecnologias
+## Technologies
 - Python
-- Estruturas de dados em grafos
-- Análise de rede social
+- Graph data structures
+- Social network analysis
 
-## Como Usar
+## How to Use
 
-1. Execute o programa:
-```
-python main.py
-```
+1. Run the program:
+   py main.py
 
-2. Selecione uma opção:
-   - **Gerar novo**: Cria um novo grafo a partir dos dados
-   - **Extrair informações**: Mostra métricas e análises do grafo
-   
-## Autores
-Desenvolvido como projeto acadêmico para Teoria dos Grafos.
-Por: Josiel Queiroz, Matheus Moreira, Mateus Alves, João Vitor Antunes.
+3. Select an option:
+   - **Generate new**: Creates a new graph from the data
+   - **Extract information**: Displays metrics and analysis of the graph
+
+## Authors
+Developed as an academic project for the Graph Theory course.
+By:  João Vitor Antunes, Josiel Queiroz, Matheus Moreira, Mateus Alves.
+
+Made by heart <3
